@@ -6,6 +6,3 @@ obj=  {
   "expires_date": "9999-06-06 19:57:41"
 };
 $done({body: JSON.stringify(obj)});
-
-
-// Mô tả
