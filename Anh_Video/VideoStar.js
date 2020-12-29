@@ -1,12 +1,3 @@
-/*
-[rewrite_local]
-^https:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php url script-response-body langkhach/VideoStar.js
-
-[mitm]
-hostname = *.videostarapp.com,
-
-*/
-
 let obj = JSON.parse($response.body);
 obj.latest_receipt = [{
      "quantity": "1",
