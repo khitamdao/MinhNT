@@ -6,7 +6,10 @@ hostname = %APPEND% api.global.mp3.zing.vn, graph.nhaccuatui.com, spclient.wg.sp
 
 [Script]
 # zingmp3
-http-response ^https:\/\/api\.global\.mp3\.zing\.vn\/.+\/getUserInfo\?data= requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/zingmp3.js,script-update-interval=0
+zingmp3.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/zingmp3.js,script-update-interval=0,type=http-response,pattern=^https:\/\/api\.global\.mp3\.zing\.vn\/.+\/getUserInfo\?data=
+zingmp3.downloadsong.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/zingmp3.downloadsong.js,script-update-interval=0,type=http-response,pattern=^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getDownloadSongInfo\?data
+zingmp3.getsong.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/zingmp3.getsong.js,script-update-interval=0,type=http-response,pattern=^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getSongInfo\?data
+
 # Nhaccuatui
 http-response ^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/nhaccuatui.js,script-update-interval=0
 # Spotify
