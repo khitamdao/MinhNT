@@ -8,7 +8,7 @@ hostname = %APPEND% apic.musixmatch.com, service.ilovepdf.com, notability.com, c
 # Musixmatch
 http-response ^https:\/\/apic\.musixmatch\.com\/ws\/1.1\/config\.get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/musixmatch.js,script-update-interval=0
 # iLovePDF
-iLovePDF = type=http-response,pattern=https:\/\/service\.ilovepdf\.com\/v1\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/ilovepdf.js,argument=false=true
+iLovePDF = type=http-response,pattern=^https:\/\/service\.ilovepdf\.com\/v1\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/ilovepdf.js,argument=false=true
 # notability
 http-response ^https?:\/\/notability\.com\/subscriptions script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/notability.js, requires-body=true, timeout=10
 # Adobe Scan, Adobe Acrobat
