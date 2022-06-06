@@ -2,7 +2,7 @@
 #!desc=Fake vip: Doccument
 
 [MITM]
-hostname = %APPEND% receipt-validator.herewetest.com, ssl-api.itranslateapp.com, ap*.intsig.net,
+hostname = %APPEND% receipt-validator.herewetest.com, ssl-api.itranslateapp.com, ap*.intsig.net, service.ilovepdf.com, notability.com, createpdf.acrobat.com, api.revenuecat.com, lcs-mobile-cops.adobe.io, photos.adobe.io,
 
 [Script]
 # speak & translate
@@ -11,3 +11,15 @@ http-response ^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransa
 http-response ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/itranslate.js,script-update-interval=0
 # CamScanner
 http-response ^https:\/\/(api|api-cs-us)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/CamScaner.js,script-update-interval=0
+# iLovePDF
+iLovePDF = type=http-response,pattern=^https:\/\/service\.ilovepdf\.com\/v1\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/ilovepdf.js,argument=false=true
+# notability
+http-response ^https?:\/\/notability\.com\/subscriptions script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/notability.js, requires-body=true, timeout=10
+# Adobe Scan, Adobe Acrobat
+http-response ^https:\/\/createpdf\.acrobat\.com\/createpdf\/api\/users\/me\/subscriptions requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/adobeScanPdf.js,script-update-interval=0
+# Pdf Viewer
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/pdfViewer.js,script-update-interval=0
+# Adobe Photoshop, Adobe Illustrator, Adobe Lightroom, Premiere Rush, Adobe Express, Spark Page, Spark Video, Adobe Fresco
+http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile\/nul\/v2 requires-body=1,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/adobe.js,script-update-interval=0
+# Lightroom
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts requires-body=1,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Lightroom.js,script-update-interval=0
