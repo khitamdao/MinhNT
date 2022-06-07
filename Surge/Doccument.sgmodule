@@ -6,7 +6,7 @@ hostname = %APPEND% receipt-validator.herewetest.com, ssl-api.itranslateapp.com,
 
 [Script]
 # speak & translate
-http-response ^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/speak%26translate.js
+http-response ^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/SpeakTranslate.js
 # itranslate
 http-response ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/itranslate.js
 # CamScanner
