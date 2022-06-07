@@ -6,8 +6,8 @@ hostname = %APPEND% bmall.camera360.com, vsco.co, api-intl.mr.meitu.com,
 
 [Script]
 # camera360
-http-response ^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/camera360.vip.js
+http-response ^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Camera360.js
 # vsco
 http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/vsco.js
 # beautyplus
-http-response ^https:\/\/api-intl\.mr\.meitu\.com/.*/subs_offer_elg$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/beautyplusvip.js
+http-response ^https:\/\/api-intl\.mr\.meitu\.com/.*/subs_offer_elg$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/BeautyPlus.js
