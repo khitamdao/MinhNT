@@ -9,7 +9,7 @@ hostname = %APPEND% pan.baidu.com, education.github.com, buy.itunes.apple.com,
 http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/BaiduCloud.js
 
 # workingcopy
-Workingcopy = type=http-response,pattern=^https:\/\/education\.github\.com\/api\/user$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Shawn1eong/Proxy-Tools/master/Script/Crack/workingcopy.js,script-update-interval=0
+Workingcopy = type=http-response,pattern=^https:\/\/education\.github\.com\/api\/user$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/WorkingCopy.js,script-update-interval=0
 
 # Mua hàng trong ứng dụng buy.itunes.apple.com
 http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/VerifyReceipt.js
