@@ -2,14 +2,15 @@
 #!desc=Fake vip: Dich Vu Truc Tuyen
 
 [MITM]
-hostname = %APPEND% api.global.mp3.zing.vn, graph.nhaccuatui.com, spclient.wg.spotify.com, apic.musixmatch.com
+hostname = %APPEND% graph.nhaccuatui.com, spclient.wg.spotify.com,
+# api.global.mp3.zing.vn, apic.musixmatch.com
 
 [Script]
-# zingmp3
-http-response ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo\?data=* script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/zingmp3.js
 # Nhaccuatui
 http-response ^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/nhaccuatui.js
 # Spotify
 http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/spotify-proto.js
+# zingmp3
+# http-response ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo\?data=* script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/zingmp3.js
 # Musixmatch
-http-response ^https:\/\/apic\.musixmatch\.com\/ws\/1.1\/config\.get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/musixmatch.js
+# http-response ^https:\/\/apic\.musixmatch\.com\/ws\/1.1\/config\.get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/musixmatch.js
