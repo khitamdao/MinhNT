@@ -5,19 +5,19 @@ WPS Office 解锁部分功能
 QuantumultX:
 
 [rewrite_local]
-^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+^https?:\/\/account\.wps\.com\/api\/users url script-response-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Wps.js
 
 [mitm]
-hostname = account.wps.cn
+hostname = account.wps.com
 
 ***************************
 Surge4 or Loon:
 
 [Script]
-http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+http-response ^https?:\/\/account\.wps\.com\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Wps.js
 
 [MITM]
-hostname = account.wps.cn
+hostname = account.wps.com
 
 **************************/
 
@@ -38,14 +38,14 @@ var obj = {
   total_cost: -30,
   userid: body.userid,
   vip: {
-    name: "超级会员",
+    name: "MinhNT",
     has_ad: 0,
     memberid: 40,
     expire_time: 1846256142,
     enabled: [
-      { memberid: 40, name: "超级会员", expire_time: 1846256142 },
-      { memberid: 20, name: "WPS会员", expire_time: 1846256142 },
-      { memberid: 12, name: "稻壳会员", expire_time: 1846256142 }
+      { memberid: 40, name: "MinhNT", expire_time: 1846256142 },
+      { memberid: 20, name: "MinhNT", expire_time: 1846256142 },
+      { memberid: 12, name: "MinhNT", expire_time: 1846256142 }
     ]
   },
   wealth: 0,
