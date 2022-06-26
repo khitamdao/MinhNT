@@ -1,23 +1,39 @@
-var body = $response.body;
-var url = $request.url;
+/* 
+ * Membership unlock for vsco & filebox
+ * Please note that you may need to reinstall app to make it work.
+ * 
+ * Type: http-response (requires body)
+ * Regex: ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/
+ * Mitm: api.revenuecat.com
+ */
 
-const path1 = '/api/subscriptions/2.1/user-subscriptions/';
+const resp = {};
+const obj = JSON.parse($response.body || null);
+const app = /VSCO|Fileb(ox|all)/.test($request.headers['User-Agent']);
 
-let obj = JSON.parse(body);
+const product = {
+	"membership": "com.circles.fin.premium.yearly", //vsco
+	"filebox_pro": "com.premium.yearly" //filebox
+}
+const data = {
+	"expires_date": "2030-02-18T07:52:54Z",
+	"original_purchase_date": "2020-02-11T07:52:55Z",
+	"purchase_date": "2020-02-11T07:52:54Z"
+};
 
-if (url.indexOf(path1) != -1) {
-	obj.user_subscription["expires_on_sec"] = 1655536094;
-	obj.user_subscription["expired"] = false;
-	obj.user_subscription["payment_type"] = 2;
-	obj.user_subscription["is_trial_period"] = true;
-	obj.user_subscription["starts_on_sec"] = 1560831070;
-	obj.user_subscription["is_active"] = true;
-	obj.user_subscription["auto_renew"] = true;
-	obj.user_subscription["last_verified_sec"] = 1560831070;
-	obj.user_subscription["subscription_code"] = "VSCOANNUAL";
-	obj.user_subscription["user_id"] = 54624336;
-	obj.user_subscription["source"] = 1;
-	body = JSON.stringify(obj);  
- }
+if (app && obj && obj.subscriber) {
+	if (!obj.subscriber.subscriptions) {
+		obj.subscriber.subscriptions = {};
+	}
+	if (!obj.subscriber.entitlements) {
+		obj.subscriber.entitlements = {};
+	}
+	for (const i in product) {
+		obj.subscriber.subscriptions[product[i]] = data;
+		obj.subscriber.entitlements[i] = data;
+		obj.subscriber.entitlements[i].product_identifier = product[i];
+	}
+	resp.body = JSON.stringify(obj);
+}
 
-$done({body});
+$done(resp);
