@@ -5,7 +5,7 @@
 [rewrite_local]
   
 # Ulike - Define trendy selfie（2022-05-09）@ddgksf2013
-https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/commerce.js
+https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Ulike.js
 
 [mitm] 
 hostname=commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com
