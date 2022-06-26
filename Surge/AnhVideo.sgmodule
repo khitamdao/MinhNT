@@ -2,13 +2,11 @@
 #!desc=Fake vip: Anh & Video
 
 [MITM]
-hostname = %APPEND% bmall.camera360.com, vsco.co,
-# api-intl.mr.meitu.com,
+hostname = %APPEND% bmall.camera360.com, api.revenuecat.com,
 
 [Script]
-# Camera 360
+# Camera 360 - Cần phải kích hoạt gói dùng thử
 http-response ^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Camera360.js
-# vsco
-http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/vsco.js
-# Beauty Plus
-# http-response ^https:\/\/api-intl\.mr\.meitu\.com/.*/subs_offer_elg$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/BeautyPlus.js
+# vsco (update: 27/06/2022)
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/vsco.js
+# Beauty Plus (update: 27/06/2022 - Không dùng được)
