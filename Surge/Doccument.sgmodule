@@ -2,7 +2,7 @@
 #!desc=Fake vip: Doccument
 
 [MITM]
-hostname = %APPEND% receipt-validator.herewetest.com, ssl-api.itranslateapp.com, ap*.intsig.net, service.ilovepdf.com, notability.com, api.revenuecat.com, lcs-mobile-cops.adobe.io, createpdf.acrobat.com, account.wps.com
+hostname = %APPEND% receipt-validator.herewetest.com, ssl-api.itranslateapp.com, ap*.intsig.net, service.ilovepdf.com, notability.com, api.revenuecat.com, lcs-mobile-cops.adobe.io, createpdf.acrobat.com, account.wps.com,
 
 [Script]
 # Speak & Translate
