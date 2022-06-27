@@ -43,9 +43,9 @@ var obj = {
     memberid: 40,
     expire_time: 1846256142,
     enabled: [
-      { memberid: 40, name: "WPS VIP Yearly", expire_time: 1846256142 },
-      { memberid: 20, name: "WPS VIP Quarterly", expire_time: 1846256142 },
-      { memberid: 12, name: "WPS VIP Monthly", expire_time: 1846256142 }
+      { memberid: 699, name: "WPS VIP Yearly", expire_time: 1846256142 },
+      { memberid: 229, name: "WPS VIP Quarterly", expire_time: 1846256142 },
+      { memberid: 92, name: "WPS VIP Monthly", expire_time: 1846256142 }
     ]
   },
   wealth: 0,
