@@ -40,7 +40,7 @@ var obj = {
   vip: {
     name: "WPS VIP Yearly",
     has_ad: 0,
-    memberid: 40,
+    memberid: 699,
     expire_time: 1846256142,
     enabled: [
       { memberid: 699, name: "WPS VIP Yearly", expire_time: 1846256142 },
