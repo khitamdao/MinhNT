@@ -2,8 +2,6 @@
 #!desc=Fake vip: Other
 
 [MITM]
-hostname = %APPEND% api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,
+hostname = %APPEND%
 
 [Script]
-# Meitu - Photo & Video Editor (2022年05月27日) @I-am-R-E
-http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/MeituPhotoVideoEditor.js
