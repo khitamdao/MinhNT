@@ -2,19 +2,8 @@
 #!desc=Fake vip: Other
 
 [MITM]
-hostname = %APPEND% commerce-i18n-api.faceu.mobi, commerce-api.faceu.mobi, pay.wecut.com, api.account.meitu.com, api.meiyan.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,
+hostname = %APPEND% api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,
 
 [Script]
-# http-response ^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/SpeakTranslate.js
-
-# Ulike - Define trendy selfie（2022-05-09）@ddgksf2013
-http-response https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Ulike.js
-
-# Beautycam - Selfie Editor (2022年05月27日) @I-am-R-E
-http-response ^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Beautycam.js
-http-response ^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Beautycam.js
-
 # Meitu - Photo & Video Editor (2022年05月27日) @I-am-R-E
 http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/MeituPhotoVideoEditor.js
-
-# Nicegram (2022年05月27日) @ddgksf2013
