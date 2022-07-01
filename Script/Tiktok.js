@@ -1,3 +1,7 @@
+/*
+   转载请注明请注明出处
+   电报群：https://t.me/baipiao_666
+*/
 var watermark = body => {
     try {
         body.replace(/\"room_id\":(\d{2,})/g, '"room_id":"$1"');
@@ -22,6 +26,7 @@ function Follow(data) {
     }
     return data;
 }
+// 电报群：https://t.me/baipiao_666
 
 function Feed(aweme_list) {
     if (aweme_list && aweme_list.length > 0) {
