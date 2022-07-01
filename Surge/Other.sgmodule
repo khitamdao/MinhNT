@@ -1,7 +1,0 @@
-#!name=Fake vip
-#!desc=Fake vip: Other
-
-[MITM]
-hostname = %APPEND%
-
-[Script]
