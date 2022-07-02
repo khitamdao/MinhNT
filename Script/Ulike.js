@@ -1,8 +1,14 @@
 /*
-轻颜相机 Ulike 蒸汽波相机(vaporcam) 三合一解锁VIP
-https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body rewardhunter066/Script/qyxj.js
+# Quantumult X
+# Ulike Unlock VIP
+https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Ulike.js
+
+# Surge
+# Ulike Unlock VIP
+http-response https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/Ulike.js
 
 hostname= commerce-*.api.faceu.com, commerce-*.api.faceu.mobi, commerce-*.api.wecut.com, commerce-*.api.wecut.mobi, pay.faceu.com, pay.faceu.mobi, pay.wecut.com, pay.wecut.mobi
+
 */
 
 const path1 = "/commerce/v1/subscription/user_info";
