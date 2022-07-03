@@ -1,16 +1,6 @@
 /*
 
-BeautyPlus unlock vip by 渤涵
-
-[rewrite_local]
-^https:\/\/api-intl\.mr\.meitu\.com\/v1\/(manual_unlock|subs) url script-response-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/BeautyPlus.js
-
-[MITM]
-hostname = api-intl.mr.meitu.com
-
-[Script]
-# > BeautyPlus
-beautyplusvip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/BeautyPlus.js,script-update-interval=0,type=http-response,pattern=^https:\/\/api-intl\.mr\.meitu\.com/.*/subs_offer_elg$
+BeautyPlus unlock vip
 
 */
 
