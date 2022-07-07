@@ -1,33 +1,18 @@
 /*
- *
- *
-脚本功能：Polaris Office解锁订阅
-软件版本：9.6.1
-下载地址：http://t.cn/A67a1dbB
-脚本作者：Hausd0rff
-更新时间：2021.11.12
-电报频道：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_007
-使用声明：⚠️此脚本仅供学习与交流，
-        请勿转载与贩卖！⚠️⚠️⚠️
 
-*******************************
+Quantumult X 脚本:
+PolarisOffice Unlock Annual Subscriptions （by LTribe）
+PolarisOffice Download Link : http://t.cn/A67a1dbB
 
 [rewrite_local]
+# PolarisOffice Unlock annual subscriptions （by LTribe）
+^https?:\/\/api\.polarisoffice\.com\/api\/.*\/account\/userinfo url script-response-body PolarisOffice.js
 
-# Polaris Office解锁订阅
-^https?:\/\/api\.polarisoffice\.com\/api\/1\/account\/userinfo$ url script-response-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/News/PolarisOfficePro.js
+[mitm]
+hostname = *.polarisoffice.com,
 
-[mitm] 
-
-hostname = api.polarisoffice.com
-*
-*
 */
 
-
-var body = $response.body;
-var objc = JSON.parse(body);
-objc.level = 2;
-body = JSON.stringify(objc);
-$done(body);
+let obj = JSON.parse($response.body);
+obj.level = 2;
+$done({body: JSON.stringify(obj)});
