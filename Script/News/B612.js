@@ -3,10 +3,10 @@
     "products" : [
       {
         "managed" : false,
-        "status" : "CANCELLED",
-        "startDate" : 1657168466000,
+        "status" : "OK",
+        "startDate" : 1657183415000,
         "productId" : "com.linecorp.b612.vip.oneyear",
-        "expireDate" : 1657701943000
+        "expireDate" : 4073275762000
       }
     ],
     "activated" : true
