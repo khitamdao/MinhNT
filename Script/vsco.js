@@ -1,26 +1,3 @@
-/********************************
-Membership unlock for VSCO & 1Blocker
-Please note that you may need to reinstall app for script to work.
-
-QuantumultX rewrite link:
-https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/vsco.js
-
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ url script-request-header https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/vsco.js
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ url script-response-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/vsco.js
-
-Please note that the above rewrite link requires open KOP-XIAO's resource parser
-
-*********************************
-Surge4, Loon and Shadowrocket configuration:
-
-[Script]
-http-request ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/vsco.js
-http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ requires-body=1,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/vsco.js
-
-[MITM]
-hostname = api.revenuecat.com
-********************************/
-
 const resp = {};
 const obj = JSON.parse(typeof $response != "undefined" && $response.body || null);
 const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
