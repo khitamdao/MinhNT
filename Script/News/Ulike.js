@@ -4,7 +4,7 @@ const path2 = "/apple/iosAppVerifyReceipt.php";
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(path1) != -1){
-obj.data.start_time = 1584674770;
+obj.data.start_time = 1657263798;
 obj.data.end_time = 6619406400;
 obj.data.is_cancel_subscribe = true;
 obj.data.flag = true;
