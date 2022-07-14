@@ -21,7 +21,7 @@ obj= {
         "transaction_id" : "20000612885421",
         "cancel_reason" : "user",
         "purchase_date_ms" : "1570593305000",
-        "expires_date_ms" : "4570852505000",
+        "expires_date_ms" : "6619406400000",
         "remaining_time_ms" : "3178755000000"
       }
     }
@@ -29,5 +29,3 @@ obj= {
 };
 
 $done({body: JSON.stringify(obj)});
-
-// Descriptions
