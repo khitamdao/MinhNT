@@ -1,4 +1,5 @@
-{
+let obj= JSON.parse($response.body);
+obj.data.vip= {
   "err" : 0,
   "sTime" : 1658754043293,
   "eTime" : 6619406400000,
