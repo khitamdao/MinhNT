@@ -1,6 +1,5 @@
 let obj= JSON.parse($response.body);
-delete obj.data.lastVipExpireTime;
-obj.data.vip= {
+obj.data= {
   "err" : 0,
   "sTime" : 1658760867433,
   "data" : {
