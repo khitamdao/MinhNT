@@ -1,4 +1,5 @@
 let obj= JSON.parse($response.body);
+delete obj.data.lastVipExpireTime;
 obj.data.vip = {
   "startTime" : 1658760867403,
   "vipType" : 1,
