@@ -1,4 +1,6 @@
-{
+let obj= JSON.parse($response.body);
+delete obj.data.lastVipExpireTime;
+obj.data.vip= {
   "err" : 0,
   "sTime" : 1658760867433,
   "data" : {
@@ -14,14 +16,8 @@
       },
       "expireTime" : 6619406400000
     },
-    "obStatus" : 1,
-    "vipObStatus" : 0,
-    "vipBanner" : 0,
-    "upload" : {
-      "status" : 1,
-      "remainSlot" : 1000,
-      "totalSlot" : 1000
     },
   },
   "msg" : "Success"
 }
+$done({body:JSON.stringify(obj)});
