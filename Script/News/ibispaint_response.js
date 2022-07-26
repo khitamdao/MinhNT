@@ -13,7 +13,7 @@ obj = {
       "token" : null,
       "first_purchase_date" : 1657263798000,
       "cancel_reason" : 0,
-      "trial_mode" : true,
+      "trial_mode" : false,
       "last_purchase_date" : 1657263797000,
       "first_purchase_id" : "490001108492104"
     }
