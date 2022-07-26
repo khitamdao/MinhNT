@@ -1,5 +1,5 @@
-const avatar = JSON.parse($response.body["avatar"].value);
-const name = JSON.parse($response.body["name"].value);
+const avatar = JSON.parse($response.body)["data"]["avatar"];
+const name = JSON.parse($response.body)["data"]["name"];
 
 let obj = JSON.parse($response.body);
 obj = {
