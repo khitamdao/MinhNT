@@ -28,7 +28,7 @@ obj = {
       },
       "expireTime" : 6619406400000
     },
-    "csuId" : csuId,
+    "csuId" : "cs1.67d1800f080ae154b81b",
     "obStatus" : 1,
     "vipObStatus" : 0,
     "segments" : "suggest-playlist-default",
