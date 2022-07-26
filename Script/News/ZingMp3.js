@@ -14,7 +14,7 @@ obj = {
     "euId" : "1a11fdcf75ca9c94c5db",
     "avatar" : avatar,
     "name" : name,
-    "segments" : "suggest-playlist-default",
+    "obStatus" : 1,
     "vip" : {
       "startTime" : 1658760867403,
       "vipType" : 1,
