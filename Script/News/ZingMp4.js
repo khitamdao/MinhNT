@@ -5,13 +5,16 @@ Update: 26/07/2022
 */
 const avatar = JSON.parse($response.body)["data"]["avatar"];
 const name = JSON.parse($response.body)["data"]["name"];
+const id = JSON.parse($response.body)["data"]["id"];
+const csuId = JSON.parse($response.body)["data"]["csuId"];
+const euId = JSON.parse($response.body)["data"]["euId"];
 
 let obj = JSON.parse($response.body);
 obj = {
   "err" : 0,
   "sTime" : 1658760867433,
   "data" : {
-    "id" : 1085568223,
+    "id" : id,
     "createdTime" : 1653307488306,
     "hasVipTrial" : false,
     "boolAtt" : 18,
@@ -25,13 +28,13 @@ obj = {
       },
       "expireTime" : 6619406400000
     },
-    "csuId" : "cs1.67d1800f080ae154b81b",
+    "csuId" : csuId,
     "obStatus" : 1,
     "vipObStatus" : 0,
     "segments" : "suggest-playlist-default",
     "ipCountry" : "VN",
     "birthdate" : "",
-    "euId" : "1a11fdcf75ca9c94c5db",
+    "euId" : euId,
     "avatar" : avatar,
     "facebookId" : "",
     "vipBanner" : 0,
