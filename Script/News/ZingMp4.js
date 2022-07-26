@@ -6,7 +6,7 @@ Update: 26/07/2022
 const avatar = JSON.parse($response.body)["data"]["avatar"];
 const name = JSON.parse($response.body)["data"]["name"];
 const id = JSON.parse($response.body)["data"]["id"];
-const csuId = JSON.parse($response.body)["data"]["csuId"];
+/* const csuId = JSON.parse($response.body)["data"]["csuId"]; */
 const euId = JSON.parse($response.body)["data"]["euId"];
 
 let obj = JSON.parse($response.body);
