@@ -1,3 +1,11 @@
+/*
+Unlock Full version zing
+Nguyễn Trường Minh
+Update: 26/07/2022
+*/
+const avatar = JSON.parse($response.body)["data"]["avatar"];
+const name = JSON.parse($response.body)["data"]["name"];
+
 let obj = JSON.parse($response.body);
 obj = {
   "err" : 0,
@@ -24,7 +32,7 @@ obj = {
     "ipCountry" : "VN",
     "birthdate" : "",
     "euId" : "1a11fdcf75ca9c94c5db",
-    "avatar" : "",
+    "avatar" : avatar,
     "facebookId" : "",
     "vipBanner" : 0,
     "upload" : {
@@ -32,7 +40,7 @@ obj = {
       "remainSlot" : 1000,
       "totalSlot" : 1000
     },
-    "name" : "",
+    "name" : name,
     "gender" : 0
   },
   "msg" : "Success"
