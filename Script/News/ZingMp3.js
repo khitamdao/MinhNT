@@ -1,7 +1,6 @@
-{
-  "err" : 0,
-  "sTime" : 1658760867433,
-  "data" : {
+let obj = JSON.parse($response.body);
+obj = {
+  "data":{
     "createdTime" : 1653307488306,
     "hasVipTrial" : false,
     "vip" : {
@@ -14,12 +13,6 @@
       },
       "expireTime" : 6619406400000
     },
-    "obStatus" : 1,
-    "vipObStatus" : 0,
-    "vipBanner" : 0,
-    "upload" : {
-      "status" : 1
-    },
   },
-  "msg" : "Success"
 }
+$done({body: JSON.stringify(obj)});
