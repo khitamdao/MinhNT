@@ -10,11 +10,6 @@ let obj = JSON.parse($response.body);
 obj = {
   "data" : {
     "id" : 1085568223,
-    "csuId" : "cs1.67d1800f080ae154b81b",
-    "euId" : "1a11fdcf75ca9c94c5db",
-    "avatar" : avatar,
-    "name" : name,
-    "obStatus" : 1,
     "vip" : {
       "startTime" : 1658760867403,
       "vipType" : 1,
@@ -25,6 +20,11 @@ obj = {
       },
       "expireTime" : 6619406400000
     },
+    "csuId" : "cs1.67d1800f080ae154b81b",
+    "obStatus" : 1,
+    "euId" : "1a11fdcf75ca9c94c5db",
+    "avatar" : avatar,
+    "name" : name
   },
 }
 $done({body: JSON.stringify(obj)});
