@@ -1,7 +1,7 @@
 /*
 Unlock Full version Abbyy Finescanner
 Nguyễn Trường Minh
-Update: 29/07/2022
+Create by @khitamdao 29/07/2022
 */
 
 let obj = JSON.parse($response.body);
