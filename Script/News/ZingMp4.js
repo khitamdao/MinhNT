@@ -1,7 +1,7 @@
 /*
 Unlock Full version zing
 Nguyễn Trường Minh
-Update: 26/07/2022
+Create by @khitamdao 26/07/2022
 Update: 29/07/2022
 */
 
