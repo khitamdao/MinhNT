@@ -11,11 +11,11 @@
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local]
-# > PornHub Unlock Premium By @Hausd0rff 09/03/2022
-^https?:\/\/*\.pornhubpremium\.com\/ url script-request-header https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/News/Pornhub.js
+# > PornHub Unlock Premium By Hausd0rff
+^https?:\/\/cn\.pornhubpremium\.com\/ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js
 
 [mitm] 
-hostname = *.pornhubpremium.com
+hostname = cn.pornhubpremium.com
 
 *******************************/
 
