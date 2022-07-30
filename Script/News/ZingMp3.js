@@ -1,8 +1,7 @@
 /*
 Unlock Full version zing
 Nguyễn Trường Minh
-Create by @khitamdao 26/07/2022
-Update: 29/07/2022
+Create by @khitamdao 26/07/2022 --- Update: 29/07/2022
 */
 
 const avatar = JSON.parse($response.body)["data"]["avatar"];
@@ -10,11 +9,12 @@ const name = JSON.parse($response.body)["data"]["name"];
 const birthdate = JSON.parse($response.body)["data"]["birthdate"];
 const csuId = JSON.parse($response.body)["data"]["csuId"];
 const euId = JSON.parse($response.body)["data"]["euId"];
+const id = JSON.parse($response.body)["data"]["id"];
 
 let obj = JSON.parse($response.body);
 obj = {
   "data" : {
-    "id" : 1085568223,
+    "id" : id,
     "vip" : {
       "startTime" : 1658760867403,
       "vipType" : 1,
