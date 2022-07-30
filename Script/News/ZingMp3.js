@@ -8,6 +8,8 @@ Update: 29/07/2022
 const avatar = JSON.parse($response.body)["data"]["avatar"];
 const name = JSON.parse($response.body)["data"]["name"];
 const birthdate = JSON.parse($response.body)["data"]["birthdate"];
+const csuId = JSON.parse($response.body)["data"]["csuId"];
+const euId = JSON.parse($response.body)["data"]["euId"];
 
 let obj = JSON.parse($response.body);
 obj = {
@@ -23,10 +25,10 @@ obj = {
       },
       "expireTime" : 6619406400000
     },
-    /* "csuId" : "cs1.67d1800f080ae154b81b", */
+    "csuId" : csuId,
     "obStatus" : 1,
     "birthdate" : birthdate,
-    /* "euId" : "1a11fdcf75ca9c94c5db", */
+    "euId" : euId,
     "avatar" : avatar,
     "upload" : {
       "status" : 1,
