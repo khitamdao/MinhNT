@@ -5,7 +5,7 @@ obj = {
     {
       "last_expire_date" : 6619406400000,
       "cancel_date" : null,
-      "next_purchase_id" : "ibisPaintXPrimeYearly",
+      "purchase_id" : "ibisPaintXPrimeYearly",
       "renew_state" : true,
       "item" : 5,
       "test_flag" : false,
