@@ -9,11 +9,12 @@ const name = JSON.parse($response.body)["data"]["name"];
 const birthdate = JSON.parse($response.body)["data"]["birthdate"];
 const csuId = JSON.parse($response.body)["data"]["csuId"];
 const euId = JSON.parse($response.body)["data"]["euId"];
+const id = JSON.parse($response.body)["data"]["id"];
 
 let obj = JSON.parse($response.body);
 obj = {
   "data" : {
-    "id" : 1085568223,
+    "id" : id,
     "vip" : {
       "startTime" : 1658760867403,
       "vipType" : 1,
