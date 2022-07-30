@@ -1,4 +1,4 @@
-let obj = JSON.parse($request.body);
+var obj = JSON.parse($request.body);
 obj = {
   "application_type" : 2,
   "terminal_id" : "B3791464-7B29-4712-9A25-FB8435DFF012",
