@@ -17,7 +17,7 @@ obj = {
     "id" : id,
     "state" : "trialing",
     "limited_validity" : null,
-    "next_payment_due" : 6619406400,
+    "next_payment_due" : 3500000000,
     "last_paid_date" : null,
     "total_price" : {
       "value" : 8.9900000000000002,
@@ -31,9 +31,9 @@ obj = {
     "purchase_valid_to" : null,
     "can_be_renewed" : false,
     "subscription" : true,
-    "subscription_free_trial_days" : 30,
+    "subscription_free_trial_days" : 365,
     "product_handle" : "com.scribd.premium.monthly.unlimited",
-    "subscription_duration" : "1.month"
+    "subscription_duration" : "12.month"
   }
 }
 $done({body: JSON.stringify(obj)});
