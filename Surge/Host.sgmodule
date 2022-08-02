@@ -1,6 +1,6 @@
-#!name = Host
-#!desc = Host
-#!system = ios
+#!name=Hosts
+#!desc=Host
+#!system=ios
 
 [Host]
 *24h-ad.24hstatic.com = 0.0.0.0
