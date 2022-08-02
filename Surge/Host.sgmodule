@@ -1,0 +1,7 @@
+#!name = Abbyy Finescanner
+#!desc = Unlock Full version
+
+[MITM]
+hostname = %APPEND% api.adapty.io,
+
+[Script]
