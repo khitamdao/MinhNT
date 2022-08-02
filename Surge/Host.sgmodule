@@ -1,3 +1,4 @@
+#!name= Host
 [Host]
 *24h-ad.24hstatic.com = 0.0.0.0
 *24h-ipad-ad.24hstatic.com = 0.0.0.0
