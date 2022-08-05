@@ -2,7 +2,7 @@
 Date：06/04/2022 by @Hausd0rff
 [rewrite_local]
 # > Duolingo Plus
-^https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/login$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DuolingoPlusCrack.js
+^https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/login$ url script-request-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/2022/DuolingoPlus.js
 
 [mitm] 
 hostname = ios-api-2.duolingo.cn
