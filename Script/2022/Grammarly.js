@@ -4,7 +4,7 @@ Date：16/07/2022 by @Hausd0rff
 
 [rewrite_local]
 # > Grammarly解锁订阅
-^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js
+^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/2022/Grammarly.js
 
 [mitm] 
 hostname = subscription.grammarly.com
