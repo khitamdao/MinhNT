@@ -1,21 +1,29 @@
-/* --- Mẫu Script 1 --- */
+/* --- Thử nghiệm xoá tính năng chỉ đọc --- */
 
-var obj = JSON.parse($response.body);
+function getRegex(str) {
+  let regParts = str.match(/^\/(.*?)\/([capabilities]*)$/);
+  if (regParts) {
+    return new RegExp(regParts[1], regParts[2]);
+  } else {
+    return new RegExp(str);
+  }
+}
 
-if(obj.response){
-  var tmp1 = JSON.parse(obj.data);
-  tmp1.capabilities.canMoveChildrenWithinDrive = true;
-  tmp1.capabilities.canComment = true;
-  tmp1.capabilities.canRemoveChildren = true;
-  tmp1.capabilities.canEdit = true;
-  tmp1.capabilities.canAddChildren = true;
-  tmp1.capabilities.canMoveItemIntoTeamDrive = true;
-  tmp1.capabilities.canMoveItemOutOfDrive = true;
-  tmp1.capabilities.canDownload = true;
-  tmp1.capabilities.canMoveItemWithinDrive = true;
-  tmp1.capabilities.canRename = true;
-  
-  obj.response =  JSON.stringify(tmp1);
-};
+if (typeof $argument == "undefined") {
+  $done({});
+} else {
+  let body;
+  if ($script.type === "http-response") {
+    body = $response.body;
+  } else {
+    body = $request.body;
+  }
 
-$done({body: JSON.stringify(obj)});
+  $argument.split("&").forEach((item) => {
+    let [match, replace] = item.split("=");
+    let re = getRegex(match);
+    body = body.replace(re, replace);
+  });
+
+  $done({ body });
+}
