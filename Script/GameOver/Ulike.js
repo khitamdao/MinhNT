@@ -1,6 +1,6 @@
 /* ulike VIP (By @songyangzz)
 
-^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com//songyangzz/QuantumultX/master/ulike/ulike.js,script-update-interval=0
+^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/GameOver/Ulike.js,script-update-interval=0
 
 hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
