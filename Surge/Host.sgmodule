@@ -54,6 +54,7 @@
 *ambientplatform.vn = 0.0.0.0
 *amcdn.vn = 0.0.0.0
 *analytics.saas-vn.network = 0.0.0.0
+*analytics.vnncdn.net = 0.0.0.0
 *analytics.zapps.vn = 0.0.0.0
 *anthill.vn = 0.0.0.0
 *ants.vn = 0.0.0.0
@@ -253,6 +254,9 @@
 *tracking.hubs.vn = 0.0.0.0
 *tracking.playzing.g6.zing.vn = 0.0.0.0
 *tracking.tv.zing.vn = 0.0.0.0
+*tracking.vnncdn.net = 0.0.0.0
+*tracking2.vnncdn.net = 0.0.0.0
+*tracking3.vnncdn.net = 0.0.0.0
 *trk-pcweb.api.zaloapp.com = 0.0.0.0
 *unibots.in = 0.0.0.0
 *urekamedia.com = 0.0.0.0
@@ -263,6 +267,7 @@
 *viam.com.vn = 0.0.0.0
 *vidoomy.com = 0.0.0.0
 *vietnamnetad.vn = 0.0.0.0
+*vnn-tracking.vnncdn.net = 0.0.0.0
 *vnnayngaytin.vn = 0.0.0.0
 *wg.zaloapp.com = 0.0.0.0
 *widget.chat.zalo.me = 0.0.0.0
@@ -299,6 +304,7 @@
 *11bet.com = 0.0.0.0
 *11bet.life = 0.0.0.0
 *11bet.net = 0.0.0.0
+*11bet.online = 0.0.0.0
 *11bet.us = 0.0.0.0
 *11bet.win = 0.0.0.0
 *11zalo.com = 0.0.0.0
@@ -390,6 +396,7 @@
 *8xbet5.com = 0.0.0.0
 *8xbet71.com = 0.0.0.0
 *8xbet96.com = 0.0.0.0
+*8xbet99.com = 0.0.0.0
 *92lottery.com = 0.0.0.0
 *978bet34.com = 0.0.0.0
 *999live.net = 0.0.0.0
@@ -444,12 +451,14 @@
 *casino888vn.com = 0.0.0.0
 *cfun68.biz = 0.0.0.0
 *chat789bet.com = 0.0.0.0
+*choang.fun = 0.0.0.0
 *choingay88.com = 0.0.0.0
 *choisv88.live = 0.0.0.0
 *choita88.club = 0.0.0.0
 *choiwin79.com = 0.0.0.0
 *choiwin79.net = 0.0.0.0
 *cmd368t.com = 0.0.0.0
+*coderiik.win = 0.0.0.0
 *comebet.xyz = 0.0.0.0
 *comebetvn1.com = 0.0.0.0
 *comebetvn10.com = 0.0.0.0
@@ -460,6 +469,7 @@
 *cuoc8live.com = 0.0.0.0
 *dabet.me = 0.0.0.0
 *dafacai360.com = 0.0.0.0
+*daily88uu.com = 0.0.0.0
 *dailybet365vn.com = 0.0.0.0
 *dangkykubet.vip = 0.0.0.0
 *dangkythabet.com = 0.0.0.0
@@ -490,9 +500,11 @@
 *eurowin.top = 0.0.0.0
 *f8bet0.com = 0.0.0.0
 *f8bet5.com = 0.0.0.0
+*f8betaa.com = 0.0.0.0
 *fa88.win = 0.0.0.0
 *fabet.com = 0.0.0.0
 *fabet.me = 0.0.0.0
+*fabet.tv = 0.0.0.0
 *fabet.us = 0.0.0.0
 *fabet.vip = 0.0.0.0
 *fabet77.net = 0.0.0.0
@@ -615,6 +627,7 @@
 *king96.net = 0.0.0.0
 *kingbet86.com = 0.0.0.0
 *kingbet86.info = 0.0.0.0
+*kingdoithuong.net = 0.0.0.0
 *kingfun247.net = 0.0.0.0
 *kmisa68.com = 0.0.0.0
 *ktokto.mobi = 0.0.0.0
@@ -716,6 +729,7 @@
 *nowbetvn.com = 0.0.0.0
 *o65qmb.tw = 0.0.0.0
 *ole777vietnam.com = 0.0.0.0
+*one88.club = 0.0.0.0
 *one88.com = 0.0.0.0
 *one88.fun = 0.0.0.0
 *one88.me = 0.0.0.0
@@ -729,6 +743,7 @@
 *oxbet.club = 0.0.0.0
 *oxbet.com = 0.0.0.0
 *oxbet.net = 0.0.0.0
+*oxbet.win = 0.0.0.0
 *oxbetd.com = 0.0.0.0
 *pameranbola.com = 0.0.0.0
 *playgamefa88.live = 0.0.0.0
@@ -843,6 +858,7 @@
 *tjb11.net = 0.0.0.0
 *tjb15.net = 0.0.0.0
 *tjb22.net = 0.0.0.0
+*tk326.com = 0.0.0.0
 *tobet88.net = 0.0.0.0
 *top88.club = 0.0.0.0
 *top88.fun = 0.0.0.0
@@ -853,6 +869,7 @@
 *top88vn.net = 0.0.0.0
 *topcc88.me = 0.0.0.0
 *topdoithuong.net = 0.0.0.0
+*topnohu.com = 0.0.0.0
 *trungso.vip = 0.0.0.0
 *tt128.info = 0.0.0.0
 *tt128.net = 0.0.0.0
@@ -1128,7 +1145,6 @@
 *analytics.viblo.asia = 0.0.0.0
 *analytics.videocloud.top = 0.0.0.0
 *analytics.vietnamfinance.vn = 0.0.0.0
-*analytics.vnncdn.net = 0.0.0.0
 *analytics.vnpt.vn = 0.0.0.0
 *analytics.vnreview.vn = 0.0.0.0
 *analytics.yts.vn = 0.0.0.0
@@ -1289,6 +1305,7 @@
 *log.dav.edu.vn = 0.0.0.0
 *log.doanhnhan.vn = 0.0.0.0
 *log.dubaotiente.com = 0.0.0.0
+*log.giacngo.vn = 0.0.0.0
 *log.giaoduc.net.vn = 0.0.0.0
 *log.hemera.com.vn = 0.0.0.0
 *log.infonet.vn = 0.0.0.0
@@ -1497,7 +1514,6 @@
 *tracking.vegaid.vn = 0.0.0.0
 *tracking.vht.com.vn = 0.0.0.0
 *tracking.vietbao.vn = 0.0.0.0
-*tracking.vnncdn.net = 0.0.0.0
 *tracking.vtcnew.com.vn = 0.0.0.0
 *trackingapi.foody.vn = 0.0.0.0
 *trackingvn.zingplay.com = 0.0.0.0
@@ -1665,6 +1681,7 @@
 *admedia.com = 0.0.0.0
 *admidainsight.com = 0.0.0.0
 *admix.in = 0.0.0.0
+*admixer.co.kr = 0.0.0.0
 *admixer.com = 0.0.0.0
 *admixer.net = 0.0.0.0
 *admob.com = 0.0.0.0
@@ -1719,7 +1736,6 @@
 *ads.hulu.com = 0.0.0.0
 *ads.imgur.com = 0.0.0.0
 *ads.indeed.com = 0.0.0.0
-*ads.internal.unity3d.com = 0.0.0.0
 *ads.linkedin.com = 0.0.0.0
 *ads.msn.com = 0.0.0.0
 *ads.oppomobile.com = 0.0.0.0
@@ -1872,6 +1888,7 @@
 *analytics-ad-*.kgslb.com = 0.0.0.0
 *analytics-sg.tiktok.com = 0.0.0.0
 *analytics.autodesk.com = 0.0.0.0
+*analytics.cloud.unity3d.com = 0.0.0.0
 *analytics.edgekey.net = 0.0.0.0
 *analytics.ff.avast.com = 0.0.0.0
 *analytics.google.com = 0.0.0.0
@@ -1886,6 +1903,8 @@
 *analytics.starmakerstudios.com = 0.0.0.0
 *analytics.tiktok.com = 0.0.0.0
 *analytics.twitter.com = 0.0.0.0
+*analytics.uca.cloud.unity3d.com = 0.0.0.0
+*analytics.unity3d.com = 0.0.0.0
 *analytics.yahoo.com = 0.0.0.0
 *analyticsnew.overwolf.com = 0.0.0.0
 *andbeyond.media = 0.0.0.0
@@ -1916,6 +1935,7 @@
 *api.sec.miui.com = 0.0.0.0
 *api.setting.intl.miui.com = 0.0.0.0
 *api.share.mob.com = 0.0.0.0
+*api.uca.cloud.unity3d.com = 0.0.0.0
 *apm-collector.daumkakao.io = 0.0.0.0
 *app-adforce.jp = 0.0.0.0
 *app-analytics-v2.snapchat.com = 0.0.0.0
@@ -1955,6 +1975,7 @@
 *asdpoi.com = 0.0.0.0
 *asianmedia.com = 0.0.0.0
 *askingpoint.com = 0.0.0.0
+*assemblyexchange.com = 0.0.0.0
 *assoc-amazon.com = 0.0.0.0
 *async-px-eu.dynamicyield.com = 0.0.0.0
 *async-px.dynamicyield.com = 0.0.0.0
@@ -1964,6 +1985,7 @@
 *atemda.com = 0.0.0.0
 *atomex.net = 0.0.0.0
 *atrack.avplayer.com = 0.0.0.0
+*attributionapp.com = 0.0.0.0
 *atwola.com = 0.0.0.0
 *audid-api-sg.taobao.com = 0.0.0.0
 *audid-api.taobao.com = 0.0.0.0
@@ -2070,6 +2092,7 @@
 *caclick.baidu.com = 0.0.0.0
 *call.inforsea.com = 0.0.0.0
 *campaign.adobe.com = 0.0.0.0
+*carbonads.com = 0.0.0.0
 *casalemedia.com = 0.0.0.0
 *cbsileads.com = 0.0.0.0
 *cbsinteractive.com = 0.0.0.0
@@ -2095,6 +2118,7 @@
 *cdnativepush.com = 0.0.0.0
 *cdnaz.win = 0.0.0.0
 *cdnwidget.com = 0.0.0.0
+*cdp.cloud.unity3d.com = 0.0.0.0
 *ced-ns.sascdn.com = 0.0.0.0
 *ced.sascdn.com = 0.0.0.0
 *celtra.com = 0.0.0.0
@@ -2123,7 +2147,6 @@
 *clientmetrics-pa.googleapis.com = 0.0.0.0
 *clksite.com = 0.0.0.0
 *clmbtech.com = 0.0.0.0
-*cloud.unity3d.com = 0.0.0.0
 *clouderrorreporting.googleapis.com = 0.0.0.0
 *cloudflareinsights.com = 0.0.0.0
 *cloudfront-labs.amazonaws.com = 0.0.0.0
@@ -2143,6 +2166,7 @@
 *conductrics.com = 0.0.0.0
 *confiant-integrations.global.ssl.fastly.net = 0.0.0.0
 *config.hiido.com = 0.0.0.0
+*config.uca.cloud.unity3d.com = 0.0.0.0
 *connatix.com = 0.0.0.0
 *connect.idocdn.com = 0.0.0.0
 *connectad.io = 0.0.0.0
@@ -2192,6 +2216,7 @@
 *d41.co = 0.0.0.0
 *d5nxst8fruw4z.cloudfront.net = 0.0.0.0
 *dashboard.tinypass.com = 0.0.0.0
+*data-optout-service.uca.cloud.unity3d.com = 0.0.0.0
 *data.mistat.intl.xiaomi.com = 0.0.0.0
 *data.sec.intl.miui.com = 0.0.0.0
 *data.sec.miui.com = 0.0.0.0
@@ -2271,7 +2296,9 @@
 *events-collector.spot.im = 0.0.0.0
 *events-dra.op.hicloud.com = 0.0.0.0
 *events.avantisvideo.com = 0.0.0.0
+*events.iap.unity3d.com = 0.0.0.0
 *events.split.io = 0.0.0.0
+*everestop.io = 0.0.0.0
 *everesttech.net = 0.0.0.0
 *evidon.com = 0.0.0.0
 *exdynsrv.com = 0.0.0.0
@@ -2413,7 +2440,6 @@
 *iad-08.braze.com = 0.0.0.0
 *iad.apple.com = 0.0.0.0
 *iadsdk.apple.com = 0.0.0.0
-*iap.unity3d.com = 0.0.0.0
 *ibillboard.com = 0.0.0.0
 *id5-sync.com = 0.0.0.0
 *idealmedia.io = 0.0.0.0
@@ -2422,6 +2448,7 @@
 *im-apps.net = 0.0.0.0
 *imhd.io = 0.0.0.0
 *imonomy.com = 0.0.0.0
+*impactify.io = 0.0.0.0
 *impactradius-event.com = 0.0.0.0
 *impactserving.com = 0.0.0.0
 *improvedigital.com = 0.0.0.0
@@ -2527,6 +2554,7 @@
 *logrocket.io = 0.0.0.0
 *logs.datadoghq.com = 0.0.0.0
 *logs.datadoghq.eu = 0.0.0.0
+*logs.insight.rapid7.com = 0.0.0.0
 *logsdk.qq.com = 0.0.0.0
 *logservice-dra.platform.hicloud.com = 0.0.0.0
 *logservice.hicloud.com = 0.0.0.0
@@ -2577,6 +2605,7 @@
 *medialytics.com = 0.0.0.0
 *mediams.mb.softbank.jp = 0.0.0.0
 *mediarithmics.com = 0.0.0.0
+*mediation-tracking.prd.mz.internal.unity3d.com = 0.0.0.0
 *mediawayss.com = 0.0.0.0
 *meitustat.com = 0.0.0.0
 *mellowads.b-cdn.net = 0.0.0.0
@@ -2687,6 +2716,7 @@
 *onthe.io = 0.0.0.0
 *openx.com = 0.0.0.0
 *openx.net = 0.0.0.0
+*operate-sdk-telemetry.unity3d.com = 0.0.0.0
 *opmnstr.com = 0.0.0.0
 *opoxv.com = 0.0.0.0
 *optad360.com = 0.0.0.0
@@ -2725,9 +2755,11 @@
 *pclick.yahoo.com = 0.0.0.0
 *pclk.name = 0.0.0.0
 *pepperjam.com = 0.0.0.0
+*perf-events.cloud.unity3d.com = 0.0.0.0
 *perimeterx.net = 0.0.0.0
 *permutive.com = 0.0.0.0
 *persona.ly = 0.0.0.0
+*personaclick.com = 0.0.0.0
 *petametrics.com = 0.0.0.0
 *pgmcdn.com = 0.0.0.0
 *phonograph2.voxmedia.com = 0.0.0.0
@@ -2758,6 +2790,7 @@
 *pps-log.op-mobile.opera.com = 0.0.0.0
 *pr-bh.ybp.yahoo.com = 0.0.0.0
 *pr.comet.yahoo.com = 0.0.0.0
+*prd-lender.cdp.internal.unity3d.com = 0.0.0.0
 *prdredir.com = 0.0.0.0
 *prebid.org = 0.0.0.0
 *premiumads.com.br = 0.0.0.0
@@ -2978,6 +3011,7 @@
 *statwup.nimo.tv = 0.0.0.0
 *steelhousemedia.com = 0.0.0.0
 *steepto.com = 0.0.0.0
+*stg-lender.cdp.internal.unity3d.com = 0.0.0.0
 *stickyadstv.com = 0.0.0.0
 *stocks-analytics-events.apple.com = 0.0.0.0
 *storeconfig.mistat.intl.xiaomi.com = 0.0.0.0
@@ -3115,6 +3149,7 @@
 *useinsider.com = 0.0.0.0
 *user-stats.rbl.ms = 0.0.0.0
 *userreport.com = 0.0.0.0
+*userreporting.cloud.unity3d.com = 0.0.0.0
 *usp1.baidu.com = 0.0.0.0
 *uts-front.line-apps.com = 0.0.0.0
 *uttclimber.com = 0.0.0.0
@@ -3510,6 +3545,7 @@
 *adhese.be = 0.0.0.0
 *adhese.com = 0.0.0.0
 *adhoc4.net = 0.0.0.0
+*adigi.icu = 0.0.0.0
 *adikteev.com = 0.0.0.0
 *adimage.guardian.co.uk = 0.0.0.0
 *adimages.been.com = 0.0.0.0
@@ -4389,6 +4425,7 @@
 *astancerta.fun = 0.0.0.0
 *astat.nikkei.com = 0.0.0.0
 *astaticglib.com = 0.0.0.0
+*astivysauran.com = 0.0.0.0
 *aswpsdkeu.com = 0.0.0.0
 *aswpsdkus.com = 0.0.0.0
 *at-adserver.alltop.com = 0.0.0.0
@@ -4608,6 +4645,7 @@
 *belstat.nl = 0.0.0.0
 *belyyeusy.com = 0.0.0.0
 *bemachopor.com = 0.0.0.0
+*bemobtracks.com = 0.0.0.0
 *bemobtrcks.com = 0.0.0.0
 *benevolencepair.com = 0.0.0.0
 *benonblkd.xyz = 0.0.0.0
@@ -4652,6 +4690,7 @@
 *bitads.net = 0.0.0.0
 *bitcoinsports.org = 0.0.0.0
 *bizrate.com = 0.0.0.0
+*bjads.bejbej.ca = 0.0.0.0
 *bjdxhs.com = 0.0.0.0
 *bjhmt.com = 0.0.0.0
 *bkvhlsndw.com = 0.0.0.0
@@ -4757,6 +4796,7 @@
 *buzzonclick.com = 0.0.0.0
 *bvalphaserver.com = 0.0.0.0
 *bvmcdn.net = 0.0.0.0
+*bwgavnars.com = 0.0.0.0
 *bwp.download.com = 0.0.0.0
 *bypassprofessordemonstrate.com = 0.0.0.0
 *byrledmtscmd.com = 0.0.0.0
@@ -4774,6 +4814,7 @@
 *c44wergiu87heghoconutdx.com = 0.0.0.0
 *ca.clcknads.pro = 0.0.0.0
 *cabbagehomme.casa = 0.0.0.0
+*cadetrigourlegitimate.com = 0.0.0.0
 *cads.scalemonk.com = 0.0.0.0
 *calculatingcircle.com = 0.0.0.0
 *calculatingtoothbrush.com = 0.0.0.0
@@ -4783,6 +4824,7 @@
 *callousbrake.com = 0.0.0.0
 *cameraunswing.com = 0.0.0.0
 *campaign.bharatmatrimony.com = 0.0.0.0
+*campongprecant.com = 0.0.0.0
 *candielzenaga.com = 0.0.0.0
 *caniamedia.com = 0.0.0.0
 *cankaowang.com = 0.0.0.0
@@ -4793,7 +4835,6 @@
 *capture.condenastdigital.com = 0.0.0.0
 *carabidshooter.com = 0.0.0.0
 *carambo.la = 0.0.0.0
-*carbonads.com = 0.0.0.0
 *carbonads.net = 0.0.0.0
 *cardiwersg.com = 0.0.0.0
 *caruagedlr.com = 0.0.0.0
@@ -4890,6 +4931,7 @@
 *chokedsmelt.com = 0.0.0.0
 *chooppolygar.com = 0.0.0.0
 *choupsee.com = 0.0.0.0
+*chqfhbqoskq.com = 0.0.0.0
 *chusairt.com = 0.0.0.0
 *chyjobopse.pro = 0.0.0.0
 *cibleclick.com = 0.0.0.0
@@ -4971,6 +5013,7 @@
 *clixgalore.com = 0.0.0.0
 *clk.omgt3.com = 0.0.0.0
 *clkads.com = 0.0.0.0
+*clkofafcbk.com = 0.0.0.0
 *clkrev.com = 0.0.0.0
 *clmcom.com = 0.0.0.0
 *cloisteredhydrant.com = 0.0.0.0
@@ -5023,6 +5066,7 @@
 *comscore.com = 0.0.0.0
 *comscoreresearch.com = 0.0.0.0
 *comwgi.com = 0.0.0.0
+*conary-invered.com = 0.0.0.0
 *concernedcondition.com = 0.0.0.0
 *concert.io = 0.0.0.0
 *concertads-configs.vox-cdn.com = 0.0.0.0
@@ -5216,6 +5260,7 @@
 *datafront.co = 0.0.0.0
 *datashreddergold.com = 0.0.0.0
 *dataxu.com = 0.0.0.0
+*davaifoa.com = 0.0.0.0
 *daz3rw5a5k4h.com = 0.0.0.0
 *dbbsrv.com = 0.0.0.0
 *dc-storm.com = 0.0.0.0
@@ -5283,6 +5328,7 @@
 *direct-xxx-access.com = 0.0.0.0
 *directaclick.com = 0.0.0.0
 *directadvert.ru = 0.0.0.0
+*directcpmrev.com = 0.0.0.0
 *directionforest.com = 0.0.0.0
 *directivepub.com = 0.0.0.0
 *directleads.com = 0.0.0.0
@@ -5688,6 +5734,7 @@
 *frenchequal.pro = 0.0.0.0
 *freychang.fun = 0.0.0.0
 *friendlyduck.com = 0.0.0.0
+*friendshipmale.com = 0.0.0.0
 *frightenedpotato.com = 0.0.0.0
 *frionene.xyz = 0.0.0.0
 *front.optimonk.com = 0.0.0.0
@@ -5822,6 +5869,7 @@
 *grandioseguide.com = 0.0.0.0
 *grannysteer.com = 0.0.0.0
 *grapeshot.co.uk = 0.0.0.0
+*greatdexchange.com = 0.0.0.0
 *greedseed.world = 0.0.0.0
 *greenplasticdua.com = 0.0.0.0
 *greetzebra.com = 0.0.0.0
@@ -5832,6 +5880,7 @@
 *groovinads.com = 0.0.0.0
 *groowzer.com = 0.0.0.0
 *groupm.com = 0.0.0.0
+*grozeesh.com = 0.0.0.0
 *grudgewallet.com = 0.0.0.0
 *gruschiwere.com = 0.0.0.0
 *gscontxt.net = 0.0.0.0
@@ -5943,6 +5992,7 @@
 *hostedads.realitykings.com = 0.0.0.0
 *hostg.xyz = 0.0.0.0
 *hostgrater.com = 0.0.0.0
+*hostingcloud.racing = 0.0.0.0
 *hostingstrong.com = 0.0.0.0
 *hostnetadv.site = 0.0.0.0
 *hosupshunk.com = 0.0.0.0
@@ -6048,6 +6098,7 @@
 *impressionz.co.uk = 0.0.0.0
 *impulsehands.com = 0.0.0.0
 *in-page-push.com = 0.0.0.0
+*in.treasuredata.com = 0.0.0.0
 *inabsolor.com = 0.0.0.0
 *inaccused.com = 0.0.0.0
 *inboxdollars.com = 0.0.0.0
@@ -6175,6 +6226,7 @@
 *jetgatem.com = 0.0.0.0
 *jewgn8une.com = 0.0.0.0
 *jf71qh5v14.com = 0.0.0.0
+*jgejqdddslxry.com = 0.0.0.0
 *jighucme.com = 0.0.0.0
 *jinkads.de = 0.0.0.0
 *jioads.akamaized.net = 0.0.0.0
@@ -6192,10 +6244,12 @@
 *joygaskin.com = 0.0.0.0
 *jpjmpqaupc.com = 0.0.0.0
 *jqtqqnen.top = 0.0.0.0
+*js.go2sdk.com = 0.0.0.0
 *js.hscollectedforms.net = 0.0.0.0
 *js.hsleadflows.net = 0.0.0.0
 *jscdn.greeter.me = 0.0.0.0
 *jsonip.com = 0.0.0.0
+*jtkctpvlsilycn.com = 0.0.0.0
 *jtracking.lulusoft.com = 0.0.0.0
 *jugjetwok.com = 0.0.0.0
 *juicesphose.com = 0.0.0.0
@@ -6269,6 +6323,7 @@
 *kurlichan.com = 0.0.0.0
 *kw3y5otoeuniv7e9rsi.com = 0.0.0.0
 *kxnggkh2nj.com = 0.0.0.0
+*kybsbwuej.com = 0.0.0.0
 *ladsblue.com = 0.0.0.0
 *ladsreds.com = 0.0.0.0
 *lakequincy.com = 0.0.0.0
@@ -6591,6 +6646,7 @@
 *mixtraffic.com = 0.0.0.0
 *mjlpqbklxgt.com = 0.0.0.0
 *mktoresp.com = 0.0.0.0
+*mkzqqhaakt.com = 0.0.0.0
 *mlm.de = 0.0.0.0
 *mlog.appguard.co.kr = 0.0.0.0
 *mmaglobal.com = 0.0.0.0
@@ -6640,6 +6696,7 @@
 *moneyexpert.com = 0.0.0.0
 *moneymakercdn.com = 0.0.0.0
 *monitoring.youronlinechoices.com = 0.0.0.0
+*monorail-edge.shopifysvc.com = 0.0.0.0
 *monsterpops.com = 0.0.0.0
 *montacarichi.it = 0.0.0.0
 *monu.delivery = 0.0.0.0
@@ -6657,6 +6714,7 @@
 *mowfruit.com = 0.0.0.0
 *mp3zik.net = 0.0.0.0
 *mpio.io = 0.0.0.0
+*mpnoqwbkz.com = 0.0.0.0
 *mpstat.us = 0.0.0.0
 *mr-rank.de = 0.0.0.0
 *mrskincash.com = 0.0.0.0
@@ -6678,6 +6736,7 @@
 *murkymouse.online = 0.0.0.0
 *musiccounter.ru = 0.0.0.0
 *muwmedia.com = 0.0.0.0
+*mvdwjofacq.com = 0.0.0.0
 *mxptint.net = 0.0.0.0
 *mxvp-ad-config-prod-1.zenmxapps.com = 0.0.0.0
 *mxvp-feature-toggle-prod-1.zenmxapps.com = 0.0.0.0
@@ -6720,6 +6779,7 @@
 *nativepu.sh = 0.0.0.0
 *nativeroll.tv = 0.0.0.0
 *nativewpsh.com = 0.0.0.0
+*naturalistsbumpmystic.com = 0.0.0.0
 *navigator.io = 0.0.0.0
 *navrcholu.cz = 0.0.0.0
 *nazarickol.com = 0.0.0.0
@@ -6763,6 +6823,7 @@
 *newonads.com = 0.0.0.0
 *newopenx.detik.com = 0.0.0.0
 *newsforyoy.com = 0.0.0.0
+*newsfrompluto.com = 0.0.0.0
 *newsocko.com = 0.0.0.0
 *newstarads.com = 0.0.0.0
 *newsunads.com = 0.0.0.0
@@ -6775,6 +6836,7 @@
 *nexus.ensighten.com = 0.0.0.0
 *ng3.ads.warnerbros.com = 0.0.0.0
 *nicksstevmark.com = 0.0.0.0
+*nighedmend.live = 0.0.0.0
 *nightfallroad.com = 0.0.0.0
 *nikmldjhvxuov.xyz = 0.0.0.0
 *nimhuemark.com = 0.0.0.0
@@ -6861,6 +6923,7 @@
 *olmsoneenh.info = 0.0.0.0
 *omazeiros.com = 0.0.0.0
 *omciecoa37tw4.com = 0.0.0.0
+*omclyzyapf.com = 0.0.0.0
 *omkaaqtwzvc.com = 0.0.0.0
 *omnatuor.com = 0.0.0.0
 *omniscientspark.com = 0.0.0.0
@@ -7532,6 +7595,7 @@
 *s.ntv.io = 0.0.0.0
 *s.yjtag.jp = 0.0.0.0
 *s2d6.com = 0.0.0.0
+*s3-analytics-events.easybrain.com = 0.0.0.0
 *sabergood.com = 0.0.0.0
 *sacralcabaa.com = 0.0.0.0
 *safebrowsdv.com = 0.0.0.0
@@ -7541,6 +7605,7 @@
 *sageanalyst.net = 0.0.0.0
 *saggrowledetc.com = 0.0.0.0
 *sailif.com = 0.0.0.0
+*saimifoa.net = 0.0.0.0
 *salecycle.com = 0.0.0.0
 *salesiq.zoho.com = 0.0.0.0
 *salesloft.com = 0.0.0.0
@@ -7552,6 +7617,7 @@
 *sam4m.com = 0.0.0.0
 *samplerpouch.com = 0.0.0.0
 *sandsitedrhec.club = 0.0.0.0
+*sarinfalun.com = 0.0.0.0
 *saspreview.com = 0.0.0.0
 *satisfycork.com = 0.0.0.0
 *saturim.com = 0.0.0.0
@@ -7700,8 +7766,10 @@
 *sleevedcaelum.com = 0.0.0.0
 *slickaffiliate.com = 0.0.0.0
 *slicktext.com = 0.0.0.0
+*slight-responsibility.pro = 0.0.0.0
 *slipperysack.com = 0.0.0.0
 *slopeaota.com = 0.0.0.0
+*sltvhyjthx.com = 0.0.0.0
 *smadex.com = 0.0.0.0
 *smallfunnybears.com = 0.0.0.0
 *smalltiberbridge.com = 0.0.0.0
@@ -7725,6 +7793,7 @@
 *smoochsodso.com = 0.0.0.0
 *smopy.com = 0.0.0.0
 *smowtion.com = 0.0.0.0
+*smsecure-ad.com = 0.0.0.0
 *snap.licdn.com = 0.0.0.0
 *snapgiant.com = 0.0.0.0
 *sneakystamp.com = 0.0.0.0
@@ -7924,6 +7993,7 @@
 *supertop100.com = 0.0.0.0
 *superxxxfree.com = 0.0.0.0
 *suppliedhopelesspredestination.com = 0.0.0.0
+*suptur.online = 0.0.0.0
 *surecheapermoisture.com = 0.0.0.0
 *surfmusik-adserver.de = 0.0.0.0
 *suriflowers.com = 0.0.0.0
@@ -8006,6 +8076,7 @@
 *tatsumi-sys.jp = 0.0.0.0
 *tawdryson.com = 0.0.0.0
 *tawelhawel.com = 0.0.0.0
+*taxedborley.com = 0.0.0.0
 *tb.baimgfroggd.site = 0.0.0.0
 *tc-clicks.com = 0.0.0.0
 *tcads.net = 0.0.0.0
@@ -8044,6 +8115,7 @@
 *terra8nb.com = 0.0.0.0
 *terrapsps.com = 0.0.0.0
 *terriblethumb.com = 0.0.0.0
+*testingmetriksbre.ru = 0.0.0.0
 *tetrylscullion.com = 0.0.0.0
 *text-link-ads.com = 0.0.0.0
 *textads.biz = 0.0.0.0
@@ -8104,6 +8176,7 @@
 *tobapplog.ctobsnssdk.com = 0.0.0.0
 *toblog.ctobsnssdk.com = 0.0.0.0
 *todacell.com = 0.0.0.0
+*toeapesob.com = 0.0.0.0
 *toecircle.com = 0.0.0.0
 *tolyafbnjt9dedjj10.com = 0.0.0.0
 *toothbrushnote.com = 0.0.0.0
@@ -8618,6 +8691,7 @@
 *xadsmart.com = 0.0.0.0
 *xanawet.com = 0.0.0.0
 *xbirmkzpgcnb.com = 0.0.0.0
+*xcaoatrv.com = 0.0.0.0
 *xchange.ro = 0.0.0.0
 *xclicks.net = 0.0.0.0
 *xebadu.com = 0.0.0.0
@@ -8677,6 +8751,7 @@
 *yjwumvme.com = 0.0.0.0
 *yldbt.com = 0.0.0.0
 *ylicxdkgkvfc.com = 0.0.0.0
+*yljyjadlx.com = 0.0.0.0
 *ylog.huya.com = 0.0.0.0
 *ymetrica1.com = 0.0.0.0
 *ymtracking.com = 0.0.0.0
@@ -8689,6 +8764,7 @@
 *yonxatuor.com = 0.0.0.0
 *yoptaejrj2kkf8nj09.com = 0.0.0.0
 *yougotacheck.com = 0.0.0.0
+*youmi.net = 0.0.0.0
 *youngsterbusinessman.com = 0.0.0.0
 *youradexchange.com = 0.0.0.0
 *yourbestheal.com = 0.0.0.0
@@ -8715,6 +8791,7 @@
 *zbwp6ghm.com = 0.0.0.0
 *zdaptrksg.com = 0.0.0.0
 *zdbb.net = 0.0.0.0
+*zdupdotxqwj.com = 0.0.0.0
 *zdyldoijanx.com = 0.0.0.0
 *zealousfield.com = 0.0.0.0
 *zedo.com = 0.0.0.0
@@ -8735,6 +8812,7 @@
 *zijaipse.com = 0.0.0.0
 *zikroarg.com = 0.0.0.0
 *zintext.com = 0.0.0.0
+*zlbdvgjlxm.com = 0.0.0.0
 *zlp6s.pw = 0.0.0.0
 *zm232.com = 0.0.0.0
 *zmedia.com = 0.0.0.0
