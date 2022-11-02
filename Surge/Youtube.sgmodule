@@ -2,7 +2,7 @@
 #!desc = Youtube
 
 [URL Rewrite]
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$3 302
+(^https?:\/\/.+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) $1$3 302
 ^https?:\/\/.+?\.googlevideo\.com\/.+\/videogoodput - reject
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking|sw.js|error_204|generate_204) - reject
@@ -17,4 +17,4 @@ adsinhome = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/you
 youtube-player = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js
 
 [MITM]
-hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, -s.youtube.com, youtubei.googleapis.com,
+hostname = %APPEND% *.googlevideo.com, *.googlevideo.com, www.youtube.com, -s.youtube.com, youtubei.googleapis.com,
