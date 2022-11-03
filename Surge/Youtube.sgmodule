@@ -3,13 +3,13 @@
 
 [URL Rewrite]
 (^https?:\/\/.+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) $1$2$3 302
-^https?:\/\/.+?\.googlevideo\.com\/.+\/videogoodput - reject-200
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject-200
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking|sw.js|error_204|generate_204) - reject-200
-^https?:\/\/s\.youtube\.com\/api\/stats\/(qoe|watchtime|) - reject-200
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject-200
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(log_event|feedback|att|guide) - reject-200
-^https:\/\/www\.youtube\.com\/pcs\/activeview - reject-200
+^https?:\/\/.+?\.googlevideo\.com\/.+\/videogoodput - REJECT-TINYGIF
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - REJECT-TINYGIF
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking|sw.js|error_204|generate_204) - REJECT-TINYGIF
+^https?:\/\/s\.youtube\.com\/api\/stats\/(qoe|watchtime|) - REJECT-TINYGIF
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - REJECT-TINYGIF
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(log_event|feedback|att|guide) - REJECT-TINYGIF
+^https:\/\/www\.youtube\.com\/pcs\/activeview - REJECT-TINYGIF
 
 [Script]
 Youtube-Fake = type=http-request,pattern=^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad,requires-body=0,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
@@ -17,4 +17,4 @@ AdsInHome = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/you
 Youtube-Player = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js
 
 [MITM]
-hostname = -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com,
+hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, -s.youtube.com, youtubei.googleapis.com,
