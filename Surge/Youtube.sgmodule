@@ -2,14 +2,14 @@
 #!desc = Youtube
 
 [URL Rewrite]
-(^https?:\/\/.+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) $1$3 302
-^https?:\/\/.+?\.googlevideo\.com\/.+\/videogoodput - reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking|sw.js|error_204|generate_204) - reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/(qoe|watchtime|) - reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(log_event|feedback|att|guide) - reject
-^https:\/\/www\.youtube\.com\/pcs\/activeview - reject
+(^https?:\/\/.+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) $1$2$3 302
+^https?:\/\/.+?\.googlevideo\.com\/.+\/videogoodput - reject-200
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject-200
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking|sw.js|error_204|generate_204) - reject-200
+^https?:\/\/s\.youtube\.com\/api\/stats\/(qoe|watchtime|) - reject-200
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject-200
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(log_event|feedback|att|guide) - reject-200
+^https:\/\/www\.youtube\.com\/pcs\/activeview - reject-200
 
 [Script]
 Youtube-Fake = type=http-request,pattern=^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad,requires-body=0,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
