@@ -2,7 +2,7 @@
 #!desc = Youtube
 
 [URL Rewrite]
-(^https?:\/\/.+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) $1$2$3 302
+#(^https?:\/\/.+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) $1$2$3 302
 ^https?:\/\/.+?\.googlevideo\.com\/.+\/videogoodput - REJECT-TINYGIF
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - REJECT-TINYGIF
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking|sw.js|error_204|generate_204) - REJECT-TINYGIF
