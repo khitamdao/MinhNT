@@ -2,7 +2,7 @@
 #!desc = Youtube
 
 [URL Rewrite]
-(^https?:\/\/.+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) $1$2$3 302
+(^https?:\/\/.+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) $1$3 302
 
 [URL Regex]
 ^https?:\/\/.+?\.googlevideo\.com\/.+\/videogoodput - REJECT
