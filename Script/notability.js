@@ -1,6 +1,6 @@
-var body = JSON["parse"]($response["body"]);
-var modifiedStatus = "HTTP/1.1 200 OK";
-body = {
+var obj = JSON.parse($response.body);
+
+obj = {
   data: {
     processAppleReceipt: {
       subscription: {
@@ -11,4 +11,5 @@ body = {
     }
   }
 };
-$done({ status: modifiedStatus, body: JSON["stringify"](body) });
+
+$done({body: JSON.stringify(obj)});
