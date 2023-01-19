@@ -3,7 +3,7 @@
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 [rewrite_local]
-^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/wanghao6736/QuanX/JS/Crack/notability.js
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/notability.js
 
 [mitm] 
 hostname = notability.com
