@@ -5,5 +5,5 @@
 hostname=%APPEND% notability.com
 
 [Script]
-# http-response ^https?://notability.com/subscriptions requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js
-Notability = type=http-response, requires-body=true, pattern=^https?://notability.com/subscriptions, script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js
+# http-response ^https?:\/\/notability\.com\/subscriptions requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js
+Notability = type=http-response, requires-body=true, pattern=^https?:\/\/notability\.com\/subscriptions, script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js
