@@ -1,3 +1,8 @@
+/*
+Unlock Full version NhacCuaTui
+Create by @khitamdao 19/06/2023
+*/
+
 let obj = JSON.parse($response.body);
 let url = $request.url;
 const user = "/user/account/info";
