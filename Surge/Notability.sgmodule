@@ -1,8 +1,0 @@
-#!name=Notability Plus
-#!desc=Notability Plus
-
-[MITM]
-hostname=%APPEND% notability.com
-
-[Script]
-Notability = type=http-response, requires-body=true, pattern=^https?:\/\/notability\.com\/subscriptions, script-path=https://raw.githubusercontent.com/khitamdao/MinhNT/master/Script/2023/notability.js
