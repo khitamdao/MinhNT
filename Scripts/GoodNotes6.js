@@ -44,4 +44,5 @@ var obj={
         "last_seen":"2023-08-11T13:18:22Z"
     }
 };
-$done({body:JSON.stringify(obj)});
+body = JSON.stringify(obj);
+$done({body});
