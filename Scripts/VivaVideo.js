@@ -1,0 +1,4 @@
+var obj = JSON.parse($response.body);
+obj = {"autoRenewProductId":"premium_vip_yearly","autoRenewStatus":1,"duidDgest":"DII2dCqrU","endTime":4102419599000,"hasFreedTrialProds":["premium_vip_yearly"],"hasIntroOfferProds":[],"iosDeviceProductVo":{"newVipMonthly":3,"newVipWeekly":3,"newVipYearly":3,"nonOrganicVipMonthly":3,"nonOrganicVipWeekly":3,"nonOrganicVipYearly":3,"premiumGoldMonthly":3,"premiumGoldYearly":3,"premiumPlatinumHalfYearly":3,"premiumPlatinumMonthly":3,"premiumPlatinumQuarterly":3,"premiumPlatinumYearly":3,"premiumVipWeekly":3,"premiumVipYearly":2},"isTrialPeriod":true,"originalTransactionId":"490001488773001","platform":2,"productList":[{"isRenew":true,"vipType":"premium_vip_yearly"}],"sign":"bb0937afa65d2a64680f2f62e02d0570","startTime":1695252819000,"systemDate":1695253070447,"transactionId":"490001488773001","vipType":"premium_vip_yearly"};
+
+$done({body: JSON.stringify(obj)});
