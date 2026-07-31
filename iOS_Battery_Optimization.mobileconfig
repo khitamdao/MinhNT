@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.custom.battery.optimization.2026</string>
+  <key>PayloadUUID</key>
+  <string>A1B2C3D4-E5F6-7A8B-9C0D-1E2F3A4B5C6D</string>
+  <key>PayloadDisplayName</key>
+  <string>Cấu hình tối ưu Pin & Quyền riêng tư</string>
+  <key>PayloadDescription</key>
+  <string>Tệp cấu hình tinh gọn chỉ gồm các thiết lập tắt gửi phân tích hệ thống, quảng cáo cá nhân hóa và tự động cập nhật ứng dụng ngầm để tiết kiệm pin tối đa mà không gây ảnh hưởng đến trải nghiệm iOS.</string>
+  <key>PayloadOrganization</key>
+  <string>Tối ưu hóa iOS</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.applicationaccess</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.custom.battery.optimization.restrictions</string>
+      <key>PayloadUUID</key>
+      <string>F6E5D4C3-B2A1-0987-6543-21FEDCBA0987</string>
+      <key>PayloadEnabled</key>
+      <true/>
+
+      <!-- - Tắt gửi dữ liệu phân tích và chẩn đoán ngầm -->
+      <key>allowAnalytics</key>
+      <false/>
+      <key>allowAppAnalytics</key>
+      <false/>
+      <key>allowCrashReporting</key>
+      <false/>
+      <key>allowDiagnosticSubmission</key>
+      <false/>
+
+      <!-- - Tắt theo dõi quảng cáo cá nhân hóa -->
+      <key>allowPersonalizedAds</key>
+      <false/>
+      <key>allowAppTrackingTransparency</key>
+      <false/>
+      <key>forceLimitAdTracking</key>
+      <true/>
+
+      <!-- - Tắt tự động tải bản cập nhật ứng dụng ngầm -->
+      <key>allowAutomaticAppUpdates</key>
+      <false/>
+    </dict>
+  </array>
+</dict>
+</plist>
